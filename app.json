@@ -1,7 +1,8 @@
 
 {
-  "name": "Marie-2.0 Türkçe",
+  "name": "Elanur-1.0 Türkçe",
   "description": "Telegram'ın en sinsi grup yöneticisi. Modüler Telegram grup yönetimi botu!",
+  "logo": "https://i.imgyukle.com/2021/03/26/N0Q9Gf.jpg",
   "keywords": [
     "telegram",
     "best",
@@ -11,7 +12,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/must4f/ElanurrBot",
+  "repository": "https://github.com/must4f/ElanurBot",
   "env": {
     "ENV": {
       "description": "Bunu ANYTHING olarak ayarlamak, ortam değişkenlerini etkinleştirir #ELLEMEYİN ",
@@ -75,7 +76,7 @@
     },
     "BAN_STICKER": {
       "description": "İnsanları yasaklarken hangi çıkartmanın kullanılacağı. File_id almak için bir Json Botu kullanın. Bilmiyorsanız ELLEMEYİN!!",
-      "value": "AAMCAQADGQEAAQjsFWBd3zEIUHcfKRePhSWvqvl6L6ZlAAKKAQAC0WvQRY2bwTmgT-ZKvN-GShcAAwEAB20AA6U8AAIeBA"
+      "value": "CAACAgEAAxkBAAEI7BVgXd8xCFB3HykXj4Ulr6r5ei-mZQACigEAAtFr0EWNm8E5oE_mSh4E"
     }
   },
   "addons": [
