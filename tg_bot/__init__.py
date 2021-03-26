@@ -51,6 +51,7 @@ if ENV:
         LOGGER.error("Bu yüzden çıkış yapılıyor...")
         quit(1)
 
+    BOTUN_ISMI = os.environ.get('BOTUN_ISMI')
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
     URL = os.environ.get('URL', "")  # Does not contain token
     if URL == "https://UYGULAMAADI.herokuapp.com/":
