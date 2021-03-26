@@ -22,13 +22,17 @@
       "description": "@Botfather'den aldığınız bot tokeninizi girin!",
       "value": ""
     },
+    "BOTUN_ISMI": {
+      "description": "Botunuzun ismi, Elanur yerine yazacak isim!",
+      "value": "Elanur"
+    },
     "OWNER_ID": {
       "description": "Botun Sahibinin Telegram ID'si",
       "value": "1097068650"
     },
     "OWNER_USERNAME": {
-      "description": "Kullanıcı adın?",
-      "value": "odunum"
+      "description": "Bot Sahibinin Kullanıcı Adı?",
+      "value": "bberc"
     },
     "WEBHOOK": {
       "description": "Bunu ANYTHING olarak ayarlamak, env modu mesajındayken web kancalarını etkinleştirir (Tavsiye:Elleme)",
@@ -39,7 +43,7 @@
       "value": "https://UYGULAMAADI.herokuapp.com/"
     },
     "MESSAGE_DUMP": {
-      "description": "optional: insanların mesajlarını silmelerini önlemek için, yanıtladığınız kayıtlı mesajların saklandığı bir sohbet",
+      "description": "Optional: insanların mesajlarını silmelerini önlemek için, herşeyin kayda alındığı bir log grubu ID'si! Boş bir grup açın kendi botunuzu ve @Missrose_bot 'u ekleyin /id yazıp gönderin ve size verdiği idyi başındaki - ile birlikte kopyalayın!",
       "value": "-1007777777777"
     },
     "SUDO_USERS": {
@@ -68,6 +72,10 @@
     },
     "STRICT_GBAN": {
       "description": "Yeni grupların yanı sıra eski gruplarda da gbans uygulayın. Küresell yasaklı bir kullanıcı konuştuğunda, gruptan yasaklanacak.",
+      "value": "True"
+    },
+    "STRICT_GMUTE": {
+      "description": "Yeni grupların yanı sıra eski gruplarda da gmutes uygulayın. Küresell muteli bir kullanıcı konuştuğunda, gruptan mutelenecek.",
       "value": "True"
     },
     "ALLOW_EXCL": {
